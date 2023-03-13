@@ -11,7 +11,7 @@ const AboutMe = () => {
 				{language === "ES" ? "Sobre Mi" : "About Me"}
 			</h2>
 			{language === "ES" ? (
-				<p className="text-gray-400 text-justify w-[50%]">
+				<p className="text-gray-400 text-justify md:w-[50%]">
 					Desarrollador front-end egresado de Misión TIC 2022 y Academia Geek con énfasis en
 					ReactJs, con conocimientos fuertes de HTML, CSS, JavaScript, Git y Github, y
 					frameworks de CSS como Bootstrap y MaterialUI. Alta adaptabilidad a trabajo en equipo
