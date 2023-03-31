@@ -23,18 +23,10 @@ const ProjectCard = ({ data }: { data: IProject }) => {
 						</div>
 					</div>
 					<div className="flex gap-3 text-sm">
-						<a
-							className="bg-black-pearl-500 px-3 py-2 text-white font-bold"
-							target="_blank"
-							href={data.deployLink}
-						>
+						<a className="project-button" target="_blank" href={data.deployLink}>
 							{language === "ES" ? "Ver página" : "View page"}
 						</a>
-						<a
-							className="bg-black-pearl-500 px-3 py-2 text-white font-bold"
-							target="_blank"
-							href={data.codeLink}
-						>
+						<a className="project-button" target="_blank" href={data.codeLink}>
 							{language === "ES" ? "Ver código" : "View code"}
 						</a>
 					</div>

@@ -1,5 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
-html {
-	scroll-behavior: smooth;
-	font-family: "Lato", sans-serif;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		scroll-behavior: smooth;
+		font-family: "Lato", sans-serif;
+	}
+}
+
+@layer components {
+	.project-button {
+		@apply bg-black-pearl-600 hover:bg-black-pearl-700 transition-all ease-in px-3 py-2 text-white font-bold;
+	}
+
+	.about-me {
+		@apply text-gray-400 text-justify md:w-[50%];
+	}
 }

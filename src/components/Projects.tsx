@@ -14,7 +14,7 @@ const Projects = () => {
 			</h2>
 			<div className="grid md:grid-cols-2 gap-10">
 				{projectsData.map((project) => (
-					<ProjectCard data={project} />
+					<ProjectCard key={project.codeLink} data={project} />
 				))}
 			</div>
 		</div>

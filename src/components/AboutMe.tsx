@@ -11,7 +11,7 @@ const AboutMe = () => {
 				{language === "ES" ? "Sobre Mi" : "About Me"}
 			</h2>
 			{language === "ES" ? (
-				<p className="text-gray-400 text-justify md:w-[50%]">
+				<p className="about-me">
 					Desarrollador front-end egresado de Misión TIC 2022 y Academia Geek con énfasis en
 					ReactJs, con conocimientos fuertes de HTML, CSS, JavaScript, Git y Github, y
 					frameworks de CSS como Bootstrap y MaterialUI. Alta adaptabilidad a trabajo en equipo
@@ -23,7 +23,7 @@ const AboutMe = () => {
 					mi crecimiento personal y de mi entorno laboral.
 				</p>
 			) : (
-				<p className="text-gray-400 text-justify w-[50%]">
+				<p className="about-me">
 					Front-end developer graduated from Misión TIC 2022 and Academia Geek with emphasis on
 					ReactJs, with strong knowledge of HTML, CSS, JavaScript, Git and Github, and CSS
 					frameworks such as Bootstrap and MaterialUI. High adaptability to teamwork with good
