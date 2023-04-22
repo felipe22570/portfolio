@@ -71,18 +71,6 @@ const Navbar = () => {
 						</li>
 					))}
 					<li className="md:ml-8 text-base md:my-0 my-7">
-						{/* <select
-							value={language}
-							onChange={(e) => languageStore.set(e.target.value)}
-							className="bg-transparent md:text-white"
-						>
-							<option value="ES" className="text-black flex">
-								ES
-							</option>
-							<option value="EN" className="text-black flex">
-								EN
-							</option>
-						</select> */}
 						<Select />
 					</li>
 				</ul>
