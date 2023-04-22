@@ -13,3 +13,9 @@ interface IProject {
 	deployLink: string;
 	stack: string[];
 }
+
+interface ILanguageData {
+	name: string;
+	value: string;
+	icon: string;
+}

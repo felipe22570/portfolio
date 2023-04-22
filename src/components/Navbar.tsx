@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { languageStore } from "../store/languageStore";
 import { useStore } from "@nanostores/react";
+import Select from "./Select";
 
 const Links = [
 	{ nameEN: "About Me", nameES: "Sobre Mi", link: "#aboutMe" },
@@ -70,7 +71,7 @@ const Navbar = () => {
 						</li>
 					))}
 					<li className="md:ml-8 text-base md:my-0 my-7">
-						<select
+						{/* <select
 							value={language}
 							onChange={(e) => languageStore.set(e.target.value)}
 							className="bg-transparent md:text-white"
@@ -81,7 +82,8 @@ const Navbar = () => {
 							<option value="EN" className="text-black flex">
 								EN
 							</option>
-						</select>
+						</select> */}
+						<Select />
 					</li>
 				</ul>
 			</div>
